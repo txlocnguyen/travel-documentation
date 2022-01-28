@@ -158,7 +158,6 @@ body {
         color: black;
         background-color: white;
         padding: 0px 0px;
-        z-index: 1;
     }
 
     #navbar header {
@@ -169,7 +168,7 @@ body {
         right: 25px;
     }
 
-    #headingtext {
+    #heading-text {
         display: grid;
         grid-template-columns: 1fr, 1fr;
         grid-gap: 50px;
@@ -213,7 +212,7 @@ body {
         font-size: 8px;
     }
 
-    Section header {
+    .main-section header {
         text-transform: uppercase;
         font-weight: bold;
         font-size: 10px;
