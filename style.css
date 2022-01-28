@@ -139,7 +139,11 @@ body {
     font-weight: 800;
     font-size: 2em;
 }
-
+@media only screen and (max-width: 432px){
+#navbar{
+    display: none;
+}
+}
 @media only screen and (max-width: 800px) {
 
     #ln-logo {
@@ -169,15 +173,11 @@ body {
     }
 
     #heading-text {
-        display: grid;
-        grid-template-columns: 1fr, 1fr;
-        grid-gap: 50px;
-        grid-auto-rows: minmax(100px, auto);
+     
         width: 100%;
         height: auto;
         position: absolute;
         top: 18vw;
-        z-index: 2;
     }
 
     #heading-title {
@@ -189,11 +189,7 @@ body {
     }
 
     #heading {
-        position: absolute;
-        width: 100%;
-        height: auto;
-        top: 0px;
-        z-index: -1;
+        display: none;
     }
 
     #main-doc {
@@ -201,6 +197,7 @@ body {
         top: 35vw;
         padding: 20px;
         display: block;
+        right: 2vw;
     }
 
     .main-section {
